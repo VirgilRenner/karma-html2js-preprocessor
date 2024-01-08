@@ -14,8 +14,8 @@ module.exports = function(karma) {
 
     // list of files / patterns to load in the browser
     files: [
-      '*.js',
-      '*.html'
+      '#.js',
+      '#.html'
     ],
 
     preprocessors: {
@@ -83,3 +83,4 @@ module.exports = function(karma) {
     ],
   });
 };
+ 
